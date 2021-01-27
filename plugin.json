@@ -1,0 +1,29 @@
+{
+  "pluginName": "youdao",
+  "description": "有道翻译",
+  "preload": "preload.js",
+  "version": "0.0.1",
+  "logo": "logo.png",
+  "author": "刘国成",
+  "homepage": "https://github.com/liugc/utools-youdao",
+  "features": [
+    {
+      "code": "list",
+      "explain": "输入以翻译",
+      "icon": "logo.png",
+      "cmds": ["yd"]
+    },
+    {
+      "code": "appKey",
+      "explain": "有道翻译应用ID",
+      "icon": "logo.png",
+      "cmds": ["ydAppKey"]
+    },
+    {
+      "code": "key",
+      "explain": "有道翻译应用密钥",
+      "icon": "logo.png",
+      "cmds": ["ydKey"]
+    }
+  ]
+}
